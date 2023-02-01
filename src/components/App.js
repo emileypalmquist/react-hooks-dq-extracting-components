@@ -1,33 +1,14 @@
 import React from "react";
+import Nav from "./Nav";
 import { messages, contacts } from "../data";
 
 console.log("Messages:", messages);
-console.log("Contacts:", contacts);
+// console.log("Contacts:", contacts);
 
 function App() {
   return (
     <div className="app">
-      <nav>
-        <h2>Contacts</h2>
-        <ul className="contacts">
-          <li className="contact">
-            <div className="icon">A</div>
-            Angela
-          </li>
-          <li className="contact active">
-            <div className="icon">P</div>
-            Pamela
-          </li>
-          <li className="contact">
-            <div className="icon">S</div>
-            Sandra
-          </li>
-          <li className="contact">
-            <div className="icon">R</div>
-            Rita
-          </li>
-        </ul>
-      </nav>
+      <Nav />
       <main>
         <h2>Messages</h2>
         <section className="messages">

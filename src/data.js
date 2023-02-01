@@ -15,6 +15,10 @@ const contacts = [
     id: 4,
     name: "Rita",
   },
+  {
+    id: 5,
+    name: "Joe",
+  },
 ];
 
 const messages = [
